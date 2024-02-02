@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: color #eff4ed;
+}
+.home123{
+  background-image: url('back123.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+div nav img {
+  width: 17%;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: -20px;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 5px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 128);
+}
+
+.detel {
+  margin-left: 5%;
+  margin-top: 7%;
+
+}
+
+.detel h1 {
+  font-size: 45px;
+  color: rgb(252, 215, 166);
+  font-style: oblique;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 175px;
+  left: 100px;
+}
+
+a {
+  color: rgb(255, 206, 83);
+
+}
+
+.ms h1 {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  font-size: 20px;
+  color: rgb(236, 214, 187);
+}
+
+.MARVEL {
+  position: absolute;
+  top: 400px;
+  font-size: 45px;
+  left: 145px;
+  color: rgb(236, 214, 187);
+  font-size: 20px;
+}
+
+.ms a {
+  font-size: 20px;
+  background-color: rgb(255, 206, 83);
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color:honeydew;
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  left: 450px;
+  top: 380px;
+}
+.me123{
+  position: absolute;
+  right: 2%;
+  top: 11%;
+  height: 88%;
+}
+
+.me {
+  background-image: url('back123.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.h11 {
+  font-size: 50px;
+  font-family: serif;
+  position: absolute;
+  top: 620px;
+  left: 38%;
+  color: rgb(255, 197, 125);
+}
+
+.textm {
+  position: absolute;
+  top: 800px;
+  left: 450px;
+  font-size: 25px;
+  color: rgb(233, 203, 158);
+}
+
+.h1123 {
+  position: relative;
+  left: 5%;
+}
+
+.h112 {
+  position: absolute;
+  left: 3%;
+  top: 570px;
+  width: 20%;
+  height: 100%;
+  transition: transform 0.5s ease
+}
+
+.h112:hover {
+  transform: scale(1.1);
+
+}
+
+.edu {
+  background-image: url('back123.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+.edu0 {
+  color: rgb(190, 129, 248);
+  font-size: 50px;
+  font-family: serif;
+  position: relative;
+  left: 35%;
+  top: 50px;
+}
+
+.edu1 {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 130px;
+  background-color: rgb(218, 178, 75);
+  color: rgb(77, 70, 70);
+  font-family: cursive;
+}
+
+.edu1 tr {
+  border-bottom: 2px solid cyan;
+  border-top: 2px solid cyan;
+}
+
+.edu1 td {
+  border-left: 2px solid cyan;
+  border-right: 2px solid cyan;
+
+}
+
+.edu1 td {
+  padding: 10px;
+}
+
+.edu1 tr:first-child {
+  font-family: cursive;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+
+
+}
+
+.edu1 td:first-child {
+  font-weight: bold;
+  width: 10%;
+  text-align: center;
+}
+
+.edu1 td:nth-child(2) {
+  text-align: center;
+  width: 20%;
+  font-weight: bold;
+}
+
+.edu1 td:nth-child(4),
+.edu1 td:nth-child(5) {
+  text-align: center;
+  width: 10%;
+  font-weight: bold;
+}
+
+.edu1 td:nth-child(3),
+.edu1 td:nth-child(6) {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.skl {
+  background-image: url('back123.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.skl1 {
+  font-size: 50px;
+  color: rgb(225, 215, 77);
+  font-family: serif;
+  position: relative;
+  left: 43%;
+  top: 0%;
+}
+
+.tec {
+  font-size: 30px;
+  color: cadetblue;
+  font-family: cursive;
+  position: relative;
+  left: 25%;
+  top: 5%;
+}
+
+.clag0 {
+  position: relative;
+  top: 10%;
+  left: 27.5%;
+  color: #00fbff;
+
+
+}
+
+.clag1 {
+  width: 500px;
+  height: 15px;
+  background: linear-gradient(to right, green 80%, red 20%);
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 30%;
+  top: 6.5%;
+  border-radius: 10px;
+
+}
+
+.py0 {
+  position: relative;
+  top: 13%;
+  left: 27%;
+  color: #00fbff
+}
+
+.py {
+  width: 500px;
+  height: 15px;
+  background: linear-gradient(to right, green 75%, red 25%);
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 30%;
+  top: 9%;
+  border-radius: 10px;
+
+}
+
+.ht0 {
+  position: relative;
+  top: 15%;
+  left: 27%;
+  color: #00fbff
+}
+
+.ht1 {
+  width: 500px;
+  height: 15px;
+  background: linear-gradient(to right, green 70%, red 30%);
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 30%;
+  top: 11%;
+  border-radius: 10px;
+
+}
+
+.cs0 {
+  position: relative;
+  top: 18%;
+  left: 27%;
+  color: #00fbff
+}
+
+.cs1 {
+  width: 500px;
+  height: 15px;
+  background: linear-gradient(to right, green 50%, red 50%);
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 30%;
+  top: 14%;
+  border-radius: 10px;
+
+}
+
+.ja0 {
+  position: relative;
+  top: 21%;
+  left: 27%;
+  color: #00fbff;
+}
+
+.ja1 {
+  width: 500px;
+  height: 15px;
+  background: linear-gradient(to right, green 25%, red 75%);
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 30%;
+  top: 18%;
+  border-radius: 10px;
+
+}
+
+.ntec {
+  font-size: 30px;
+  color: cadetblue;
+  font-family: cursive;
+  position: relative;
+  left: 25%;
+  top: 25%;
+}
+
+.com1 {
+  width: 500px;
+  height: 15px;
+  background: linear-gradient(to right, green 90%, red 10%);
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  position: relative;
+  left: 30%;
+  top: 29%;
+  border-radius: 10px;
+
+}
+
+.cert {
+  background-image: url('back123.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.cert1 {
+  font-size: 50px;
+  color: khaki;
+  font-family: serif;
+  position: relative;
+  left: 35%;
+  top: 3%;
+}
+
+.tech0 {
+  border-collapse: collapse;
+  position: absolute;
+  left: 13%;
+  top: 435%;
+  width: 26%;
+  height: 40%;
+}
+
+.tecimg0 {
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+
+.tech1 {
+  border-collapse: collapse;
+  position: absolute;
+  left: 47%;
+  top: 440%;
+  width: 60%;
+  height: 40%;
+}
+
+.ntecimg0 {
+  width: 60%;
+  height: 80%;
+}
+
+.tech0 td {
+  transition: transform 0.3s ease
+}
+
+.tech1 td {
+  transition: transform 0.3s ease
+}
+
+.tech0 td:hover {
+  transform: scale(1.1);
+}
+
+.tech1 td:hover {
+  transform: scale(1.1);
+}
+
+.cont {
+  background-image: url('back123.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.cont1 {
+  position: relative;
+  top: 5%;
+  left: 40%;
+  font-size: 40px;
+  font-family: serif;
+  color: lightsalmon;
+}
+
+.cont2 {
+  position: relative;
+  top: 15%;
+  left: 20%;
+  font-size: 25px;
+}
+
+label {
+  font-size: 30px;
+  font-family: serif;
+  color: cyan;
+}
+
+.cont2 button {
+  font-size: 15px;
+  font-family: fantasy;
+  color: #fff;
+  background-color: blue;
+  width: 7%;
+  height: 5%;
+  position: relative;
+  left: 90px;
+}
+
+.cont2 button a {
+  font-size: 15px;
+  font-family: fantasy;
+  color: #fff;
+  background-color: blue;
+  width: 7%;
+  height: 5%;
+  text-decoration: none;
+}
+
+.cont2 button:hover {
+  color: gold;
+}
+
+.cont2 button a:hover {
+  color: gold;
+}
+
+.lkin {
+  position: absolute;
+  top: 537%;
+  left: 60%;
+  color: rgb(180, 255, 104);
+  font-size: 20px;
+}
+
+.lkin:hover {
+  color: rgb(66, 251, 251);
+}
+
+.gh {
+  position: absolute;
+  top: 548%;
+  left: 60%;
+  font-size: 20px;
+  color: rgb(180, 255, 104);
+
+}
+
+.gh:hover {
+  color: rgb(66, 251, 251);
+
+}
+
+.fb {
+  position: absolute;
+  top: 558%;
+  left: 60%;
+  font-size: 20px;
+  color: rgb(180, 255, 104);
+}
+
+.fb:hover {
+  color: rgb(66, 251, 251);
+}
+
+.wh {
+  position: absolute;
+  top: 568%;
+  left: 60%;
+  font-size: 20px;
+  color: rgb(180, 255, 104);
+}
+
+.wh:hover {
+  color: rgb(66, 251, 251);
+}
+
+.ca {
+  position: absolute;
+  top: 577%;
+  left: 60%;
+  font-size: 20px;
+  color: rgb(180, 255, 104);
+}
+
+.ca:hover {
+  color: rgb(66, 251, 251);
+}
+
+.phn {
+  position: absolute;
+  top: 576%;
+  left: 63%;
+  font-size: 27px;
+  color: rgb(180, 255, 104);
+}
+
+.phn:hover {
+  color: rgb(66, 251, 251);
+}
+
+.mail {
+  position: absolute;
+  top: 585%;
+  left: 60.5%;
+  font-size: 19px;
+  color: rgb(180, 255, 104);
+}
+
+.mail:hover {
+  color: rgb(66, 251, 251);
+
+}
